@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main() {
+    int number, guess;
+
+    srand(time(0));  // generate random number
+    number = rand() % 10 + 1;  // number between 1 and 10
+
+    cout << "Guess a number between 1 and 10: ";
+    cin >> guess;
+
+    if (guess == number) {
+        cout << "🎉 Correct! You win!";
+    } else {
+        cout << "❌ Wrong! The number was " << number;
+    }
+
+    return 0;
+}///
