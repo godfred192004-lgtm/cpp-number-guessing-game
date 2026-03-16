@@ -1,0 +1,13 @@
+# Student Grade System (C++)
+
+This program calculates a student's grade based on the score entered.
+
+## Features
+- Input student name
+- Input score
+- Automatic grade calculation
+
+## Built With
+C++ using Dev-C++
+
+Author: Godfred
